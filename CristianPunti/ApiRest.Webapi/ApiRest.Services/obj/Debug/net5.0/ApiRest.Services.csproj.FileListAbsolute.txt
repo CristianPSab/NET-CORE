@@ -9,3 +9,4 @@ C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\
 C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.dll
 C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ref\ApiRest.Services.dll
 C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.pdb
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.csproj.AssemblyReference.cache

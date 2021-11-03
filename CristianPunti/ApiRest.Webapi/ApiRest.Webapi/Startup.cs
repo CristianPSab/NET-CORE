@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -36,10 +37,13 @@ namespace ApiRest.Webapi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiRest.Webapi", Version = "v1" });
             });
+            services.AddDbContext<ApiDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("ApiRest.Webapi")));
+            
 
             services.AddScoped(typeof(IApplication<>), typeof(Application<>));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddSingleton(typeof(IDbContext<>), typeof(DBContext<>));
+            services.AddScoped(typeof(IDbContext<>), typeof(DBContext<>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
