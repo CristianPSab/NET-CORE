@@ -8,28 +8,33 @@ namespace ApiRest.Repository
     {
     }
 
-    public class Repository<T> : IRepository<T>
+    public class Repository<T> : IRepository<T> where T : IEntity
     {
-      
+        IDbContext<T> _ctx;
 
+        public Repository(IDbContext<T> ctx)
+        {
+            _ctx = ctx;
+        }
+        
         public void Delete(int id)
         {
-          
+            _ctx.Delete(id);
         }
 
         public IList<T> GetAll()
         {
-            return null;
+            return _ctx.GetAll();
         }
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            return _ctx.GetById(id);
         }
 
         public T Save(T entity)
         {
-            throw new NotImplementedException();
+            return _ctx.Save(entity);
         }
     }
 }

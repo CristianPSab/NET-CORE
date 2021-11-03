@@ -2,7 +2,7 @@
 
 namespace ApiRest.Entities
 {
-    public class FootballTeam
+    public class FootballTeam : Entity
     {
         public string Name { get; set; }
 

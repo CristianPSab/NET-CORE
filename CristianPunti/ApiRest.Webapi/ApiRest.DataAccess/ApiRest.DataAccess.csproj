@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ApiRest.Abstractions\ApiRest.Abstractions.csproj" />
     <ProjectReference Include="..\ApiRest.Entities\ApiRest.Entities.csproj" />
     <ProjectReference Include="..\ApiRest.Services\ApiRest.Services.csproj" />
   </ItemGroup>

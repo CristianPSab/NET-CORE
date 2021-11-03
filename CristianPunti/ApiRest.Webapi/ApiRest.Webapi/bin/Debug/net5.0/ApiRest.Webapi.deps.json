@@ -413,6 +413,7 @@
       },
       "ApiRest.DataAccess/1.0.0": {
         "dependencies": {
+          "ApiRest.Abstractions": "1.0.0",
           "ApiRest.Entities": "1.0.0",
           "ApiRest.Services": "1.0.0"
         },
@@ -424,6 +425,9 @@
         }
       },
       "ApiRest.Entities/1.0.0": {
+        "dependencies": {
+          "ApiRest.Abstractions": "1.0.0"
+        },
         "runtime": {
           "ApiRest.Entities.dll": {}
         },

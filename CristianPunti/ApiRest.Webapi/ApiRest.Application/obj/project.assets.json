@@ -16,6 +16,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "ApiRest.Abstractions": "1.0.0",
           "ApiRest.Entities": "1.0.0",
           "ApiRest.Services": "1.0.0"
         },
@@ -29,6 +30,9 @@
       "ApiRest.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ApiRest.Abstractions": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ApiRest.Entities.dll": {}
         },

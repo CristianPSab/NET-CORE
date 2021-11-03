@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ApiRest.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiRest.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiRest.Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApiRest.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ApiRest.Abstractions/ApiRest.Abstractions.csproj",
+      "msbuildProject": "../ApiRest.Abstractions/ApiRest.Abstractions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ApiRest.Abstractions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Cristian\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

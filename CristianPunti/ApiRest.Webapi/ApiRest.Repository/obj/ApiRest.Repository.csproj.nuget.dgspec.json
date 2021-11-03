@@ -90,6 +90,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj"
+              },
               "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Entities\\ApiRest.Entities.csproj": {
                 "projectPath": "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Entities\\ApiRest.Entities.csproj"
               },
@@ -154,7 +157,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
