@@ -1,0 +1,11 @@
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\bin\Debug\net5.0\ApiRest.Services.deps.json
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\bin\Debug\net5.0\ApiRest.Services.dll
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\bin\Debug\net5.0\ref\ApiRest.Services.dll
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\bin\Debug\net5.0\ApiRest.Services.pdb
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.AssemblyInfoInputs.cache
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.AssemblyInfo.cs
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.csproj.CoreCompileInputs.cache
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.dll
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ref\ApiRest.Services.dll
+C:\Users\Cristian\source\repo-NET\CristianPunti\ApiRest.Webapi\ApiRest.Services\obj\Debug\net5.0\ApiRest.Services.pdb

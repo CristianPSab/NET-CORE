@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApiRest.Application\ApiRest.Application.csproj" />
+    <ProjectReference Include="..\ApiRest.Entities\ApiRest.Entities.csproj" />
+    <ProjectReference Include="..\ApiRest.Services\ApiRest.Services.csproj" />
+  </ItemGroup>
+
 </Project>
