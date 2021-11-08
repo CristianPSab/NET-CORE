@@ -112,6 +112,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -306,7 +310,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Cristian\\source\\repo-NET\\CristianPunti\\ApiRest.Webapi\\ApiRest.Abstractions\\ApiRest.Abstractions.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -318,6 +326,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,8 @@
 ﻿using ApiRest.Application;
 using ApiRest.Entities;
 using ApiRest.Webapi.DTOs;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace ApiRest.Webapi.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Route("api/[controller]")]
     [ApiController]
 
